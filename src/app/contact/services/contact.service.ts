@@ -44,8 +44,8 @@ export class ContactService {
 
   private getInitialContacts(): Contact[] {
     return [
-      new Contact(1, 'Sami', 'Anttonen', '0123456789', 'Skinnarilankatu 35', 'Lappeenranta'),
-      new Contact(2, 'Teppo', 'Testaaja', '0123456789', 'Skinnarilankatu 35', 'Lappeenranta')
+      new Contact(1, 'Marko', 'Paananen', '0406663333', 'Tapionkatu 7', 'Imatra'),
+      new Contact(2, 'Hessu', 'Hopo', '04511992266', 'Nollakatu 0', 'Hanhivaara')
     ];
   }
 

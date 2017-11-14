@@ -39,5 +39,8 @@ export class AppComponent implements OnInit {
   navigateToSettings() {
     this.router.navigate(['/settings']);
   }
+  navigateToUnknown() {
+    this.router.navigate(['']);
+  }
 
 }
